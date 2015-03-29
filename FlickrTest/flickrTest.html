@@ -1,0 +1,40 @@
+<html>
+<title>Test WebShite</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+<script src="flickrScript.js"></script>
+
+<head>Test Webshite</head>
+<body>
+
+	<!-----Main Page------->
+	<div data-role = "page" id = "home">
+		<div data-role = "header"> <h1>This is just a test</h1> </div>
+		
+			<div data-role = "content"> 
+				<div class = "ui-grid-c" id ="photolist"></div>
+			</div>
+			
+		<div data-role = "footer"> Tester footer bitch </div>
+	</div>
+	
+	<!----Display Image------->
+	<div data-role = "page" id = "display">
+		<div data-role = "header"><a href = "#home" data-transition="fade" data-icon="back" data-iconpos="notext">Photos</a></div>
+		
+			<div data-role = "content"> 
+				<div id ="showPhoto">
+				</div>
+			</div>
+			
+		<div data-role = "footer"> Tester footer bitch </div>
+	</div>
+	
+<script src="http://api.flickr.com/services/feeds/photos_public.gne?id=40277798@N08&format=json" type="text/javascript"></script>
+
+
+</body>
+</html>

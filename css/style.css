@@ -1,0 +1,143 @@
+#logo
+{
+	float: left;
+	display: inline;
+	padding-left: 5px;
+	padding-top: 1px;
+	height: 49px;
+}
+
+.pac-item
+{
+	color: blue;
+}
+
+#main-head
+{
+	height: 50px;
+	width: 100%;
+	line-height: 32px;
+}
+
+#main-image img
+{
+	width: 100%;
+}
+
+#map-canvas
+{
+	width: 100%;
+	height: 250px;
+}
+
+#directionsPanel
+{
+	width: 100%;
+	max-width: 100%;
+	height: 300px;
+	overflow: auto;
+}
+
+
+#home
+{
+	width: 100%;
+}
+
+#blogbox
+{
+	border: solid 1px #234;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#blogtitle
+{
+	min-height: 50px;
+	line-height: 50px;
+	background-color: #234;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#blogcontent
+{
+	padding: 5px;
+}
+
+#home .ui-controlgroup 
+{
+	width: 60%;
+	margin: 0 auto;
+	max-width: 250px;
+}
+
+
+.thumb
+{
+	width: 100%;
+
+}
+
+#vLeft, #vRight
+{
+	width: 49%;
+	float: left;
+}
+
+#vLeft
+{
+	margin-right: 5px;
+}
+
+.title
+{
+	font-size: 70%;
+}
+
+
+
+#infoWin
+{
+	color: #234;
+}
+
+#videoframe
+{
+	width: 100%;
+}
+
+#blogtitle h4
+{
+	height: 50px;
+	margin: 0 0 0 0;
+}
+
+#pTitle
+{
+	width: 100%;
+	max-height: 50px; 
+	line-height: 50px;
+	background-color: #234;
+	text-align: center;
+}
+
+#pTitle h4
+{
+	height: 50px;
+	margin: 0 0 0 0;
+}
+
+#player-pic
+{
+	width: 100%;
+}
+
+
+
+#picture
+{
+	width: 100%;
+}

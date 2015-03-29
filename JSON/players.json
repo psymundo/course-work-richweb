@@ -1,0 +1,290 @@
+[
+      {
+		"image": "joehart.jpg",
+        "name": "Joe Hart",
+        "position": "Goalkeeper",
+        "dob": "19/4/1987",
+        "nat": "English",
+        "height": "6'05",
+        "bio": "One of Englands top performers in last summer's Euro 2012"
+      },
+      {
+		"image": "CostelPantilimon.jpg",
+        "name": "Costel Pantilimon",
+        "position": "Goalkeeper",
+        "dob": "01/02/1987",
+        "nat": "Romanian",
+        "height": "6'08",
+        "bio": "Costel Pantilimon arrived at City in August 2011 as the Clubs fourth signing of the summer."
+      },
+      {
+		"image": "RichardWright.jpg",
+        "name": "Richard Wright",
+        "position": "Goalkeeper",
+        "dob": "05/11/1877",
+        "nat": "English",
+        "height": "6'03",
+        "bio": "Former England goalkeeper Richard Wright joined City in August 2012.Wright, a free agent after a brief spell with Preston North End, was signed as back-up for Joe Hart and Costel Pantilimon."
+      },
+      {
+		"image": "DedryckBoyata.jpg",
+        "name": "Dedryck Boyata",
+        "position": "Defender",
+        "dob": "28/11/1990",
+        "nat": "Belgian",
+        "height": "6'02",
+        "bio": "Born in Belgium, Dedryck arrived at the Academy from FC Brussels in the summer of 2007. He gradually established himself as a central defensive linchpin in the side that went on to win the FA Youth Cup a year later, and he has since continued to hone his game alongside the senior squad at Carrington."
+      },
+      {
+		"image": "Maicon.jpg",
+        "name": "Maicon",
+        "position": "Defender",
+        "dob": "26/06/1981",
+        "nat": "Brazilian",
+        "height": "6'01",
+        "bio": "Disciplined defender Maicon joined the Blues from Inter Milan in August 2012 for an undisclosed fee.The Brazil international was signed by Roberto Mancini in the summer transfer window as the Italian looked to strengthen his squad and defend the Premier League title."
+      },
+      {
+		"image": "MatijaNastasic.jpg",
+        "name": "Matija Nastasic",
+        "position": "Defender",
+        "dob": "28/03/1993",
+        "nat": "Serbia",
+        "height": "6'02",
+        "bio": "Serbian centre-back Nastasic was a revelation for Fiorentina in Serie A last season, emerging as one of the brightest defensive prospects in the Italian top flight and he joined City on 31 August in a deal that saw Stefan Savic go the other way."
+      },
+      {
+		"image": "WayneBridge.jpg",
+        "name": "Wayne Bridge",
+        "position": "Defender",
+        "dob": "05/08/1980",
+        "nat": "English",
+        "height": "5'10",
+        "bio": "Left back Bridge was Mark Hughes' first signing of the January 2009 transfer window from Chelsea."
+      },
+      {
+		"image": "AleksandarKolarov.jpg",
+        "name": "Aleksandar Kolarov",
+        "position": "Defender",
+        "dob": "10/11/1985",
+        "nat": "Serbian",
+        "height": "6'1",
+        "bio": "Aleksandar Kolarov, nicknamed the Serbian Roberto Carlos, joined City from Lazio in July 2010."
+      },
+      {
+		"image": "VincentKompany.jpg",
+        "name": "Vincent Kompany",
+        "position": "Defender",
+        "dob": "10/04/1986",
+        "nat": "Belgian",
+        "height": "6'04",
+        "bio": "Multilingual and multi-talented, Vincent was runner-up in the Blues fans Player of the Season poll for 2008/09 then really came into his own in 2009/10, switching from midfield to his international position of centre-half with aplomb."
+      },
+      {
+		"image": "GaelClichy.jpg",
+        "name": "Gael Clichy",
+        "position": "Defender",
+        "dob": "26/07/1985",
+        "nat": "French",
+        "height": "5'09",
+        "bio": "Gael left The Emirates to join the club on 4 July 2011, following in the footsteps of four former Gunners on the playing staff in Kolo Toure, Patrick Vieira, Emmanuel Adebayor and Stuart Taylor."
+      },
+      {
+		"image": "JoleonLescott.jpg",
+        "name": "Joleon Lescott",
+        "position": "Defender",
+        "dob": "16/08/1982",
+        "nat": "English",
+        "height": "6'02",
+        "bio": "Signed on a five-year contract on 25 August 2009 by long-time admirer Mark Hughes, who had earmarked the Everton and England defender as a key element in his new-look team."
+      },
+      {
+		"image": "MicahRichards.jpg",
+        "name": "Micah Richards",
+        "position": "Defender",
+        "dob": "24/06/1988",
+        "nat": "English",
+        "height": "5'11",
+        "bio": "Micah Richards joined City from Oldham Athletic as a 14-year-old and has since progressed through the Clubs successful Academy."
+      },
+      {
+		"image": "KoloToure.jpg",
+        "name": "Kolo Toure",
+        "position": "Defender",
+        "dob": "19/03/1981",
+        "nat": "Ivory Coast",
+        "height": "6'0",
+        "bio": "Kolo Toure became Citys sixth signing of a busy summer when he arrived on a four-year contract on July 29, 2009 from Arsenal for a fee of &pound;14million."
+      },
+      {
+		"image": "PabloZabaleta.jpg",
+        "name": "Pablo Zabaleta",
+        "position": "Defender",
+        "dob": "16/01/1985",
+        "nat": "Argentinian",
+        "height": "5'10",
+        "bio": "An Olympic gold medal winner, Zabaleta has proved adept at both right back and in central midfield, and Roberto Mancini made full use of his experience and ability so that, despite opening 2009-10 on the bench, he eventually started 23 League games."
+      },
+      {
+		"image": "GarethBarry.jpg",
+        "name": "Gareth Barry",
+        "position": "Midfielder",
+        "dob": "23/02/1981",
+        "nat": "English",
+        "height": "6'0",
+        "bio": "Citys first signing of the summer of 2009, Gareth cost &pound;12million from Aston Villa and proved a consistent and ultra-reliable performer in midfield, barely missing a game but picking up a rare injury in the penultimate match to put his World Cup in jeopardy."
+      },
+      {
+		"image": "AbdislamIbrahim.jpg",
+        "name": "Abdisalam Ibrahim",
+        "position": "Midfielder",
+        "dob": "01/05/1991",
+        "nat": "Somalian",
+        "height": "6'06",
+        "bio": "Abdi arrived from Norwegian club Fjellhamar, Oslo, in 2007 at the age of 15."
+      },
+      {
+		"image": "MichaelJohnson.jpg",
+        "name": "Michael Johnson",
+        "position": "Midfielder",
+        "dob": "24/02/1988",
+        "nat": "English",
+        "height": "6'00",
+        "bio": "Yet another product of the prolific Platt Lane kindergarten and a player tipped for the top echelons of the game until stopped in his tracks by injury for the past two seasons."
+      },
+      {
+		"image": "JamesMilner.jpg",
+        "name": "James Milner",
+        "position": "Midfielder",
+        "dob": "04/01/1986",
+        "nat": "English",
+        "height": "5'09",
+        "bio": "Versatile England midfielder James Milner was signed by City in August 2010 and offers a wealth of experience in the Premier League."
+      },
+      {
+		"image": "SamirNasri.jpg",
+        "name": "Samir Nasri",
+        "position": "Midfielder",
+        "dob": "26/06/1987",
+        "nat": "French",
+        "height": "5'09",
+        "bio": "Samir Nasri became a City player when his transfer from Arsenal wascompleted on 24 August 2011."
+      },
+      {
+		"image": "AbdulRazak.jpg",
+        "name": "Abdul Razak",
+        "position": "Midfielder",
+        "dob": "11/11/1992",
+        "nat": "Ivory Coast",
+        "height": "5'09",
+        "bio": "Abdul Razak came through the famous Mimosas club in the Ivory Coast – the club that gave Kolo and Yaya Toure the springboard into their illustrious, trophy-laden careers."
+      },
+      {
+		"image": "JackRodwell.jpg",
+        "name": "Jack Rodwell",
+        "position": "Midfielder",
+        "dob": "11/03/1991",
+        "nat": "English",
+        "height": "6'02",
+        "bio": "Jack Rodwell became Citys first signing of the summer transfer window in 2012, coming in for an undisclosed amount on the same day as the Blues 3-2 Community Shield win over Chelsea."
+      },
+      {
+		"image": "DavidSilva.jpg",
+        "name": "David Silva",
+        "position": "Midfielder",
+        "dob": "08/01/1986",
+        "nat": "Spanish",
+        "height": "5'07",
+        "bio": "David Silva must have felt at home straight away at the City of Manchester Stadium, having conjured the winning goal on his previous visit."
+      },
+      {
+		"image": "JaviGarcia.jpg",
+        "name": "Javi Garcia",
+        "position": "Midfielder",
+        "dob": "08/02/1987",
+        "nat": "Spanish",
+        "height": "6'01",
+        "bio": "Javi Garcia signed for Manchester City on 31 August 2012. Garcia brings extensive experience of the Champions League with him to Manchester, having made his competition debut for Real Madrid back in 2005."
+      },
+      {
+		"image": "ScottSinclair.jpg",
+        "name": "Scott Sinclair",
+        "position": "Midfielder",
+        "dob": "25/03/1989",
+        "nat": "Welsh",
+        "height": "5'08",
+        "bio": "Scott Sinclair signed for City on transfer deadline day, 31 August, 2012.The Great Britain winger, 23, had a terrific season with Swansea last season and was a major factor in the South Wales sides promotion to the Premier League the season before"
+      },
+      {
+		"image": "YayaToure.jpg",
+        "name": "Yaya Toure",
+        "position": "Midfielder",
+        "dob": "13/05/1983",
+        "nat": "Ivory Coast",
+        "height": "6'02",
+        "bio": "Yaya Toures decision to join centre-half Kolo at the club meant they became the first brothers to play for City since Shaun and Bradley Wright-Phillips."
+      },
+      {
+		"image": "MarioBalotelli.jpg",
+        "name": "Mario Balotelli",
+        "position": "Striker",
+        "dob": "12/08/1990",
+        "nat": "Italian",
+        "height": "6'03",
+        "bio": "Striker Mario Balotelli joined City from Internazionale in August 2010, bringing with him both Champions League and Serie A-winning experience."
+      },
+      {
+		"image": "EdinDzeko.jpg",
+        "name": "Edin Dzeko",
+        "position": "Striker",
+        "dob": "17/03/1986",
+        "nat": "Bosnian",
+        "height": "6'02",
+        "bio": "Edin Dzeko became Roberto Mancinis ninth signing when the Bosnian striker moved to the City of Manchester Stadium from Wolfsburg on a five-year deal in January, 2011."
+      },
+      {
+		"image": "SergioAguero.jpg",
+        "name": "Sergio Aguero",
+        "position": "Striker",
+        "dob": "02/06/1988",
+        "nat": "Argentinian",
+        "height": "5'08",
+        "bio": "Following Gael Clichy and Stefan Savic into the club, Sergio Agueros arrival at City was completed on 28 July 2011 as the club’s third signing of the summer."
+      },
+      {
+		"image": "RoqueSantaCruz.jpg",
+        "name": "Roque Santa Cruz",
+        "position": "Striker",
+        "dob": "16/08/1981",
+        "nat": "Paraguayan",
+        "height": "6'02",
+        "bio": "A year-long chase for the services of the Paraguayan striker ended in July 2009 when he arrived at the City of Manchester Stadium to link up with boss Mark Hughes for the second time."
+      },
+      {
+		"image": "AlexTchuimeniNimely.jpg",
+        "name": "Alex Tchuimeni-Nimely",
+        "position": "Striker",
+        "dob": "11/05/1991",
+        "nat": "Liberian",
+        "height": "5'11",
+        "bio": "Alex was born in Liberia and comes from a sporting background, his father having been a promising college basketball player. After leaving his homeland at an early age, Alex spent time in both France and England before settling over here after his footballing talent caught the eye of several English clubs."
+      },
+      {
+		"image": "CarlosTevez.jpg",
+        "name": "Carlos Tevez",
+        "position": "Striker",
+        "dob": "05/02/1984",
+        "nat": "Argentinian",
+        "height": "5'11",
+        "bio": "Carlos Tevez is a history maker in South America having been named that continents player of the season for three years in succession from 2003-2005"
+      },
+      {
+		"image": "JohnGuidetti.jpg",
+        "name": "John Guidetti",
+        "position": "Striker",
+        "dob": "15/04/1992",
+        "nat": "Swedish",
+        "height": "6'01",
+        "bio": "Widely regarded as the brightest young striking talent in Swedish football, John Guidetti joined the Blues as a 16-year-old after impressing then-manager Sven-Goran Eriksson in 2008."
+      }
+]

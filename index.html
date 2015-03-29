@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MCFC - Mobile</title>
+		<link rel="stylesheet" href="css/mcfc-mobile.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.2.0.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type = "text/javascript" src = "scripts/jquery.js"></script>
+		<script type = "text/javascript" src = "scripts/jquery.mobile-1.2.0.min.js"></script>
+		<script type = "text/javascript" src = "https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+		<script type = "text/javascript" src = "scripts/sitescript.js"></script>
+	</head>
+	<body>
+	
+		<!-- Home Page -->
+		<div id = "home" data-role="page" data-theme="a">
+
+			<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>HOME</h1>
+			</div>
+			<div id = "main-image">
+					<img src='images/main.jpg' alt = "MCFC" />
+			</div>
+			<div data-role = "controlgroup">
+				<a href = "#blog" data-role="button" data-icon="star">Blog</a>
+				<a href = "#videos" data-role="button" data-icon="star">Videos</a>
+				<a href = "#photos" data-role="button" data-icon="star">Photos</a>
+				<a href = "#players" data-role="button" data-icon="star">Players</a>
+				<a href = "#twitter" data-role="button" data-icon="star">Twitter</a>
+				<a href = "#contact" data-role="button" data-icon="star">Contact</a>
+			</div>
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div><!-- END OF HOME PAGE -->
+		
+		<!-- Video Gallery Page-->
+		<div id = "videos" data-role = "page" data-theme = "a">
+			<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>VIDEOS</h1>
+			</div>
+			
+			<!-- Show Youtube Videos -->
+			<div data-role = "content" id ="videolist">
+			</div>
+			
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="star"
+					>Videos</a></li>
+					
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="arrow-r"
+					>Players</a></li>
+					
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div><!--END OF VIDEOS -->
+		
+		<!-- Video Player Page-->
+		<div id = "videoplayer" data-role = "page" data-theme = "a">
+			<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>VIDEOS</h1>
+			</div>
+			
+			<!-- Show selected Youtube Videos -->
+			<div data-role="content">
+			<div id="myplayer"></div>
+		</div><!--End Youtube-->
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="star"
+					>Videos</a></li>
+					
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="arrow-r"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div><!--END OF VIDEO PLAYER -->
+		
+		<!--Photo Gallery Page-->
+		<div id = "photos" data-role = "page" data-theme = "a">
+			<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>PHOTOS</h1>
+			</div>
+			
+			<!-- Photos can't be clicked unless it's wrapped in a content div -->
+			<div data-role = "content">
+				<div class = "ui-block-c" id ="photolist"></div>
+			</div>
+			
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="star"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="arrow-r"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div><!--END OF PHOTOS -->
+		
+		<!--Single Photo Page-->
+		<div id = "display" data-role = "page" data-theme = "a">
+			<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>PHOTOS</h1>
+			</div>
+			
+			<!--Shows Selected Photo-->
+			<div id ="showPhoto">
+			</div>
+			
+			
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="star"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="arrow-r"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div><!--END OF DISPLAY PHOTOS -->
+		
+		<!--Blog Page-->
+		<div id = "blog" data-role = "page" data-theme = "a">
+			<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>BLOG</h1>
+			</div>
+			<div id = "main-image">
+					<img src='images/blogtitle.jpg' alt = "MCFC" />
+			</div>
+			<div id = "blogger">
+			</div>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="star"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="arrow-r"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div><!--END OF BLOG -->
+		
+		<!-- Twitter Page-->
+		<div id = "twitter" data-role = "page" data-theme = "a">
+			<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>TWITTER</h1>
+			</div>
+			<!-- Tweet List -->
+			<div data-role="content" id="tweetlist"></div>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="arrow-r"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="star"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div>
+		
+		<!-- Player Page -->
+		<div id = "players" data-role = "page" data-theme = "a">
+		<div data-role="header" data-position="fixed" id = "main-head">
+			<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>PLAYERS</h1>
+			</div>
+		
+		<div data-role = "controlgroup">
+				<a href = "#Keepers" data-role="button" data-icon="star" data-transition="slide">Goalkeepers</a>
+				<a href = "#Defenders" data-role="button" data-icon="star" data-transition="slide">Defenders</a>
+				<a href = "#Midfielders" data-role="button" data-icon="star" data-transition="slide">Midfielders</a>
+				<a href = "#Strikers" data-role="button" data-icon="star" data-transition="slide">Strikers</a>
+			</div>
+		
+		<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="star"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div>
+		
+		<!-- Goal Keeper Page -->
+		<div id = "Keepers" data-role = "page" data-theme = "a">
+		<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>GOALKEEPERS</h1>
+			</div>
+		<div data-role = "controlgroup">
+			<a href = "#playerbio" onclick = "playerBio('Joe Hart')" data-transition="flip" data-role = "button">Joe Hart</a>
+			<a href = "#playerbio" onclick = "playerBio('Costel Pantilimon')" data-transition="flip" data-role = "button">Costel Pantilimon </a>
+			<a href = "#playerbio" onclick = "playerBio('Richard Wright')" data-transition="flip" data-role = "button">Richard Wright</a>
+		</div>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="star"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div>
+		
+		<!-- Midfielders Page -->
+		<div id = "Midfielders" data-role = "page" data-theme = "a">
+		<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>MIDFIELDERS</h1>
+			</div>
+			<div data-role = "controlgroup">
+				<a href = "#playerbio" onclick = "playerBio('David Silva')" data-transition="flip" data-role = "button">David Silva</a> 
+				<a href = "#playerbio" onclick = "playerBio('Yaya Toure')"data-transition="flip" data-role = "button">Yaya Toure</a> 
+				<a href = "#playerbio" onclick = "playerBio('Gareth Barry')"data-transition="flip" data-role = "button">Gareth Barry </a>
+				<a href = "#playerbio" onclick = "playerBio('James Milner')"data-transition="flip" data-role = "button">James Milner</a> 
+				<a href = "#playerbio" onclick = "playerBio('Javi Garcia')"data-transition="flip" data-role = "button">Javi Garcia</a> 
+				<a href = "#playerbio" onclick = "playerBio('Jack Rodwell')"data-transition="flip" data-role = "button">Jack Rodwell</a> 
+				<a href = "#playerbio" onclick = "playerBio('Scott Sinclair')"data-transition="flip" data-role = "button">Scott Sinclair</a> 
+				<a href = "#playerbio" onclick = "playerBio('Samir Nasri')"data-transition="flip" data-role = "button">Samir Nasri</a> 
+				<a href = "#playerbio" onclick = "playerBio('Abdul Razak')"data-transition="flip" data-role = "button">Abdul Razak </a>
+				<a href = "#playerbio" onclick = "playerBio('Michael Johnson')"data-transition="flip" data-role = "button">Michael Johnson</a> 
+				<a href = "#playerbio" onclick = "playerBio('Abdisalam Ibrahim')"data-transition="flip" data-role = "button">Abdisalam Ibrahim</a>
+			</div>
+		<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="star"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div>
+		
+		<!-- Defenders Page -->
+		<div id = "Defenders" data-role = "page" data-theme = "a">
+		<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>DEFENDERS</h1>
+			</div>
+		<div data-role = "controlgroup">
+			<a href = "#playerbio" onclick = "playerBio('Pablo Zabaleta')" data-transition="flip" data-role = "button">Pablo Zabaleta</a> 
+			<a href = "#playerbio" onclick = "playerBio('Micah Richards')"data-transition="flip" data-role = "button">Micah Ricards </a>
+			<a href = "#playerbio" onclick = "playerBio('Joleon Lescott')"data-transition="flip" data-role = "button">Joleon Lescott </a>
+			<a href = "#playerbio" onclick = "playerBio('Vincent Kompany')"data-transition="flip" data-role = "button">Vincent Kompany</a>
+			<a href = "#playerbio" onclick = "playerBio('Dedryck Boyata')"data-transition="flip" data-role = "button">Dedryck Boyata</a> 
+			<a href = "#playerbio" onclick = "playerBio('Aleksandar Kolarov')"data-transition="flip" data-role = "button">Aleksandar Kolarov</a>
+			<a href = "#playerbio" onclick = "playerBio('Gael Clichy')"data-transition="flip" data-role = "button">Gael Clichy</a> 
+			<a href = "#playerbio" onclick = "playerBio('Kolo Toure')"data-transition="flip" data-role = "button">Kolo Toure</a> 
+			<a href = "#playerbio" onclick = "playerBio('Wayne Bridge')"data-transition="flip" data-role = "button">Wayne Bridge</a>
+			<a href = "#playerbio" onclick = "playerBio('Maicon')"data-transition="flip" data-role = "button">Maicon</a> 
+			<a href = "#playerbio" onclick = "playerBio('Matija Nastasic')"data-transition="flip" data-role = "button">Matija Nastasic</a>
+		</div>
+		<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="star"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div>
+		
+		<!-- Strikers Page -->
+		<div id = "Strikers" data-role = "page" data-theme = "a">
+		<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>STRIKERS</h1>
+			</div>
+			<div data-role = "controlgroup">
+				<a href = "#playerbio" onclick = "playerBio('Edin Dzeko')"data-transition="flip" data-role = "button">Edin Dzeko</a> 
+				<a href = "#playerbio" onclick = "playerBio('Mario Balotelli')"data-transition="flip" data-role = "button">Mario Balotelli</a> 
+				<a href = "#playerbio" onclick = "playerBio('Carlos Tevez')"data-transition="flip" data-role = "button">Carlos Tevez</a> 
+				<a href = "#playerbio" onclick = "playerBio('Sergio Aguero')"data-transition="flip" data-role = "button">Sergio Aguero</a> 
+				<a href = "#playerbio" onclick = "playerBio('John Guidetti')"data-transition="flip" data-role = "button">John Guidetti</a> 
+				<a href = "#playerbio" onclick = "playerBio('Alex Tchuimeni-Nimely')"data-transition="flip" data-role = "button">Alex Tchuimeni-Nimely</a> 
+				<a href = "#playerbio" onclick = "playerBio('Roque Santa Cruz')"data-transition="flip" data-role = "button">Roque Santa Cruz</a> 
+			</div>
+		<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="star"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div>
+		
+		<!-- Player Bio Page -->
+		<div id = "playerbio" data-role = "page" data-theme = "a">
+		<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="star"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="arrow-r"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+		</div>
+		
+		<!-- Contact Page-->
+		<div id = "contact" data-role = "page" data-theme = "a">
+			<div data-role="header" data-position="fixed" id = "main-head">
+				<div id = "logo"><a href = "#home"><img src = "images/logo.png"></a></div><h1>CONTACT</h1>
+			</div>	
+			<div data-role = "content">
+				<input type = "Text" id = "locationSearch" style = "width: 100%; height: 30px">
+				<div id = "map-canvas">
+				</div>
+				
+				<div id = "directionsPanel">
+				</div>
+				
+				<div id = "contact Form">
+				<form>
+					Name:<input type = "Text" id = "name">
+					E-Mail:<input type = "Text" id = "email">
+					Message:<textarea rows = "10" cols = "10" id = "message"></textarea>
+					<a href = "dialog.html" data-rel = "dialog" data-transition = "flip" data-role = "button">Send Message</a>
+					<input type = "reset" id = "reset" value = "Clear">
+				</form>
+				</div>
+			<div id ="lolmessage" data-role = "popup">
+				<p>Thank you for your message.</p> 
+			</div>	
+			</div>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#blog"
+					data-role="button"
+					data-icon="arrow-r"
+					>Blog</a></li>
+					<li><a href="#videos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Videos</a></li>
+					<li><a href="#photos"
+					data-role="button"
+					data-icon="arrow-r"
+					>Photos</a></li>
+				</ul>
+				<ul>
+					<li><a href="#players"
+					data-role="button"
+					data-icon="arrow-r"
+					>Players</a></li>
+					<li><a href = "#contact"
+					data-role="button"
+					data-icon="star"
+					>Contact</a></li>
+					<li><a href = "#twitter"
+					data-role="button"
+					data-icon="arrow-r"
+					>Twitter</a></li>
+				</ul>
+			</div><!-- navbar -->
+			<div data-role = "footer" data-position="inline"> <h1>&copy; 2012</h1></div>
+		</div>
+		
+		
+		<!--Flickr Link-->
+		<script src="http://api.flickr.com/services/feeds/photos_public.gne?id=40277798@N08&format=json" type="text/javascript"></script>
+		
+		<!-- Youtube Link -->
+		<script src="http://gdata.youtube.com/feeds/users/mcfcofficial/uploads?alt=json-in-script&max-results=10&category=Sports&callback=listVideos" type="text/javascript"></script>
+		
+		<!-- Twitter Link -->
+		<script src="https://api.twitter.com/1/statuses/user_timeline/MCFC.json?screen_name=MCFC&count=30&callback=listTweets" type="text/javascript"></script>
+		
+	</body>
+</html>
